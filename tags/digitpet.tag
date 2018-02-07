@@ -1,6 +1,6 @@
 <digitpet>
 
-<img src={imgSRC}>
+  <img src={imgSRC}>
   <h1> {petname} </h1>
   <h3> How to take care of Hiro? If you click on {feed}, and give it one {feed}, the value of satiety will increase. <br> When satiety >= 100, Hiro will sleep for 2 days.</h3>
 
