@@ -1,5 +1,6 @@
 <digitpet>
-<h1>TESTTEST</h1>
+
+<img src={imgSRC}>
   <h1> {petname} </h1>
   <h3> How to take care of Hiro? If you click on {feed}, and give it one {feed}, the value of satiety will increase. <br> When satiety >= 100, Hiro will sleep for 2 days.</h3>
 
@@ -18,6 +19,7 @@
 
 
   <script>
+      this.imgSRC = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVOTnGFcosRGbr2sCjZi83NgJ-FtH0kogqsx7Futb8NiJnZw-L";
       this.petname = "Hi! My name is Hiro.";
       this.feed = "bully stick";
 
